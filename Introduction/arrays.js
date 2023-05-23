@@ -1,23 +1,26 @@
 // Arrays in Javascript
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9] 
-console.log(arr)
+// console.log(arr)
 
 // Lenght of an array
-console.log(arr.length)
+// console.log(arr.length)
 
 //accessing an array
 /* Array are just like items in a list. They are accessed using indexes.
  starting with zero as the first index. */
 
-console.log(arr[0]) //first element.
+// console.log(arr[0]) //first element.
 
 // Accessing the last element of an array
-console.log(arr[arr.length- 1])
+// console.log(arr[arr.length-1])
+
+console.log(arr.length)
+
 
 // Mutating an array -
 arr[0] = 10
-console.log(arr)
+// console.log(arr)
 
 
 let cars=["dodge","mustang","audi","benz"] 

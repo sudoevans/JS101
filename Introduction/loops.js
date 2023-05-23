@@ -66,18 +66,18 @@ do{
     j++
 }while(j < 10)
 
-// Wi-Fi password brute force simulation using a do while loop in javascript.
+// -------------------------------------
+/* Practice Excersise
 
-// Using a list
-let passwordList=['12345568','Snave123','ki38sjw','3hwi738234','883jwjww','cybercafe','2015231'];
-let correctPassword='cybercafe';
+-Do while loop
+Write a program that prints all even numbers from 1 to 20 using a do while loop.
 
-let r=0
+--For Loop
+Write a program that calculates and prints the sum of numbers from 1 to 10 using a for loop.
 
-console.log(passwordList[0])
-do {
-    console.log( "Trying"+passwordList[r])
-    r++
 
-}while(passwordList[r]!==correctPassword)
+-While loop
+Write a program that prints out numbers upto 50
+
+*/
 
