@@ -53,13 +53,31 @@ Do while loop is used to execute a block of code repeatedly until a certain cond
 Syntax:
 
 do{
-    //code to be executed
+    --code to be executed
 }while(condition)
-Example:
 */
+// Example:
+
 
 let j = 0
+
 do{
     console.log(j)
     j++
 }while(j < 10)
+
+// Wi-Fi password brute force simulation using a do while loop in javascript.
+
+// Using a list
+let passwordList=['12345568','Snave123','ki38sjw','3hwi738234','883jwjww','cybercafe','2015231'];
+let correctPassword='cybercafe';
+
+let r=0
+
+console.log(passwordList[0])
+do {
+    console.log( "Trying"+passwordList[r])
+    r++
+
+}while(passwordList[r]!==correctPassword)
+
