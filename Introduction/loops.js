@@ -81,3 +81,25 @@ Write a program that prints out numbers upto 50
 
 */
 
+// Break and continue in Javascrip loops.
+
+let i=0
+for (i=0;i<=10;i++){
+    console.log(i)
+    if (i===5){
+        break //Exists the loops prematurely when it reaches 5!
+    }
+}
+
+// Continue 
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 3) {
+      continue; // Skip the current iteration when i equals 3
+    }
+    console.log(i);
+  }
+  
+
+
+
