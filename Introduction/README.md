@@ -3,7 +3,7 @@
 
 
 # Scope
-!['scope']()
+!['scope'](./scope.gif)
 
 ## Javascript has three scope types:
 -Block scope
