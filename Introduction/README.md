@@ -7,7 +7,9 @@
 
 ## Javascript has three scope types:
 -Block scope
+
 -Function scope
+
 -Global scope
 
 ## Block scope
@@ -49,6 +51,7 @@ function myFunction() {
 }
 ```
 
+
 ## Hoisting- English definition("raise (something) by means of ropes and pulleys.")
 -Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Naturally, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
 ```javascript
@@ -57,3 +60,4 @@ var num; // Declaration
 num = 6; // Initialization
 console.log(num); // Returns 6
 ```
+
